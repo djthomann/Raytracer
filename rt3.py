@@ -40,8 +40,9 @@ class vec3():
         return r
 rgb = vec3
 
-(w, h) = (400, 300)         # Screen size
-L = vec3(5, 5, -10)        # Point light position
+(w, h) = (640, 400)         # Screen size
+# L = vec3(5, 5, -10)
+L = vec3(0, 5, 0)        # Point light position
 E = vec3(0, 0.35, -1)     # Eye position
 FARAWAY = 1.0e39            # an implausibly huge distance
 
