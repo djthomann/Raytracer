@@ -156,7 +156,7 @@ if __name__ == '__main__':
     ray_tracer = RayTracer(width, height)
 
     # instantiate a scene
-    scene = Scene(width, height, ray_tracer, "Raytracing Template")
+    scene = Scene(width, height, ray_tracer, "Python Raytracer")
 
     # pass the scene to a render window
     rw = RenderWindow(scene)
